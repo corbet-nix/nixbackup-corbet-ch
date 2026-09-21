@@ -25,7 +25,7 @@
   <nav>
     <a href="/" class="nav-brand">nixbackup</a>
     <div class="nav-links">
-      <a href="https://github.com/julian-corbet/nixbackup-corbet-ch">GitHub</a>
+      <a href="https://github.com/corbet-nix/nixbackup-corbet-ch">GitHub</a>
       <a href="#modules">Modules</a>
       <a href="#status">Status</a>
       <a href="#install">Install</a>
@@ -62,7 +62,7 @@
     verifying the right state instead of trusting anything&rsquo;s exit code.</p>
     <div class="cta">
       <a href="#status" class="btn btn-primary">Read the honest status</a>
-      <a href="https://github.com/julian-corbet/nixbackup-corbet-ch" class="btn btn-secondary">View on GitHub</a>
+      <a href="https://github.com/corbet-nix/nixbackup-corbet-ch" class="btn btn-secondary">View on GitHub</a>
     </div>
   </div>
 </header>
@@ -263,7 +263,7 @@
       <div class="install-method">
         <h3>Add the flake input</h3>
         <pre><code>inputs.nixbackup.url =
-  "github:julian-corbet/nixbackup-corbet-ch";</code></pre>
+  "github:corbet-nix/nixbackup-corbet-ch";</code></pre>
         <p>Three flake outputs: <code>nixosModules.destinations</code>,
         <code>nixosModules.autobootstrap</code>, and
         <code>nixosModules.monitor</code>.</p>
@@ -290,7 +290,7 @@ zfs set org.nixbackup:destination=tank/backups/data \
     tank/data</code></pre>
         <p>Only <code>autobootstrap</code> and the monitor&rsquo;s
         <code>zfs-dynamic</code> targets read these. See
-        <a href="https://github.com/julian-corbet/nixbackup-corbet-ch/blob/main/examples/configuration.nix">examples/configuration.nix</a>
+        <a href="https://github.com/corbet-nix/nixbackup-corbet-ch/blob/main/examples/configuration.nix">examples/configuration.nix</a>
         for a complete flake wiring all three modules on one host.</p>
       </div>
     </div>
@@ -337,12 +337,12 @@ zfs set org.nixbackup:destination=tank/backups/data \
 <footer>
   <div class="container">
     <div class="footer-links">
-      <a href="https://github.com/julian-corbet/nixbackup-corbet-ch">Source</a>
-      <a href="https://github.com/julian-corbet/nixbackup-corbet-ch/issues">Issues</a>
+      <a href="https://github.com/corbet-nix/nixbackup-corbet-ch">Source</a>
+      <a href="https://github.com/corbet-nix/nixbackup-corbet-ch/issues">Issues</a>
     </div>
     <p>
-      <a href="https://github.com/julian-corbet/nixbackup-corbet-ch/blob/main/LICENSE">MIT</a> &middot;
-      <a href="https://github.com/julian-corbet">Julian Corbet</a>
+      <a href="https://github.com/corbet-nix/nixbackup-corbet-ch/blob/main/LICENSE">MIT</a> &middot;
+      <a href="https://github.com/corbet-nix">Julian Corbet</a>
     </p>
   </div>
 </footer>

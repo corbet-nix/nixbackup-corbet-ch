@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # monitor.nix — evaluate every configured backup target from GROUND TRUTH on
 # a timer, and push the verdict to a configurable push-style monitoring
 # endpoint. This is the generalized form of a evaluator that grew out of a

@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # modules/snapper-backup.nix — a declarative front end over Arch's `snapper-backup`
 # (the `snbk` tool bundled with the `snapper` package itself), for a system-manager
 # host pushing snapper snapshots to a receiving host over SSH.

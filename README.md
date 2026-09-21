@@ -409,16 +409,16 @@ Future work:
 ## Related projects
 
 `nixbackup` is one of several independent, narrowly-scoped NixOS/Nix
-projects. [nixstorage](https://github.com/julian-corbet/nixstorage-corbet-ch)
+projects. [nixstorage](https://github.com/corbet-nix/nixstorage-corbet-ch)
 is the sibling that owns dataset SHAPE/delivery/ownership and idle-/RAM-/
 temperature-gated scrub scheduling — this repo starts where a dataset already
-exists and is already shaped; [nixpower](https://github.com/julian-corbet/nixpower-corbet-ch)
+exists and is already shaped; [nixpower](https://github.com/corbet-nix/nixpower-corbet-ch)
 owns the host's power stance, including the ATA standby timers that spin the
-disks backing any of these datasets down when idle. [nixvps](https://github.com/julian-corbet/nixvps-corbet-ch)
+disks backing any of these datasets down when idle. [nixvps](https://github.com/corbet-nix/nixvps-corbet-ch)
 does the same "hard-won discipline as reusable modules" pattern for tiny
-cloud VMs; [nixram](https://github.com/julian-corbet/nixram-corbet-ch) handles
+cloud VMs; [nixram](https://github.com/corbet-nix/nixram-corbet-ch) handles
 memory-pressure tuning. Use them together or separately.
 
-## License
+## Licence
 
-[MIT License](LICENSE) &copy; 2026 Julian Corbet
+Outbound licence is `MIT OR Apache-2.0`. See `LICENSE-MIT` and `LICENSE-APACHE`; every source file carries `SPDX-License-Identifier: MIT OR Apache-2.0`.

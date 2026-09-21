@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # examples/configuration.nix — a complete, generic flake wiring all three
 # nixbackup modules together on one host: a receive-destination invariant
 # (destinations), a runtime auto-bootstrap for new plan children

@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 {
   description = "nixbackup - ZFS backup-destination discipline as enforced, tested NixOS modules";
 

@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # destinations.nix — enforce the receive-destination invariants: every backup
 # RECEIVE destination dataset (the target side of a `zfs send | zfs receive`
 # pipeline) stays canmount=noauto, readonly=on -- both SET LOCALLY -- and

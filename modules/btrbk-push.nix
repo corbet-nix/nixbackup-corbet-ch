@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # btrbk-push.nix — a declarative front end over the upstream `services.btrbk`
 # module, for a host ALLOWED to hold credentials reaching outward toward a
 # backup receiver. This is the PUSH shape of btrfs replication: this host

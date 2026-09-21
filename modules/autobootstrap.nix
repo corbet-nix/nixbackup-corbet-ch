@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # autobootstrap.nix — close the "broken autoCreation" hole shared by most
 # ZFS-replication tools: none of the common ones reliably create a
 # destination dataset for a source child that did not exist the last time

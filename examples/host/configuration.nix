@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # The smallest NixOS configuration that composes all three nixbackup modules,
 # used by every check in this flake.
 #

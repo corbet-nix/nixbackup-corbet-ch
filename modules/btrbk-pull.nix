@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # btrbk-pull.nix — the HOME/RECEIVER half of a pull-based btrfs replication
 # pair (see `local-snapshots.nix`, this repo's sibling module, for the
 # SOURCE side).
