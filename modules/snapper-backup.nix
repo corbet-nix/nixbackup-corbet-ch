@@ -140,6 +140,7 @@ in
       type = lib.types.attrsOf lib.types.path;
       default = {
         btrfs = "/run/current-system/sw/bin/btrfs";
+        cat = "/run/current-system/sw/bin/cat";
         ls = "/run/current-system/sw/bin/ls";
         mkdir = "/run/current-system/sw/bin/mkdir";
         rm = "/run/current-system/sw/bin/rm";
